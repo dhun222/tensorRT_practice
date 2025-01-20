@@ -1,0 +1,1 @@
+trtexec --onnx=unet.onnx --saveEngine=unet_int8.engine --inputIOFormats=fp32:chw --outputIOFormats=fp32:chw --int8
