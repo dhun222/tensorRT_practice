@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dhhyun/project/tensorRT/tensorRT_example/UNet/cpp_runtime/main.cpp
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+memory
+-
+NvInfer.h
+/home/dhhyun/project/tensorRT/tensorRT_example/UNet/cpp_runtime/NvInfer.h
+
